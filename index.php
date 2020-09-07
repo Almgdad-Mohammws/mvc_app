@@ -4,8 +4,8 @@
      use Framework\Core\Module;
 //    use Framework\Providers\Token;
 
-    $user = new Module();
-    $user->dbcon();
+
+    $user = Module::dbcon();
 
     $user->create('users', [
         "username" => 'HAmoda',
