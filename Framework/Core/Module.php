@@ -21,7 +21,7 @@
 
         }
 
-        public function dbcon(){
+        public static function dbcon(){
             if (! self::$Instance) {
                 return self::$Instance = new Module();
             }
